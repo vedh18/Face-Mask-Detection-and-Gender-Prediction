@@ -13,7 +13,7 @@ The gender_prediction dataset contains headshot photos of people categorised as 
 The first and the third datasets are subsets of the kaggle dataset: https://www.kaggle.com/datasets/tapakah68/medical-masks-part1/code?datasetId=1409004&sortBy=dateRun&tab=profile&excludeNonAccessedDatasources=false
 
 
-The second dataset is a subset of 
+The second dataset is a subset of https://www.kaggle.com/datasets/cashutosh/gender-classification-dataset
 
 ## Approach 
 ### Pre-Processing
