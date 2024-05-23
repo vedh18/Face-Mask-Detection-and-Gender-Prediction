@@ -40,11 +40,21 @@ Even though the second model could theoretically work for the no mask case, I wa
 
 I used EfficientNetV2S as my base model and trained its weights from scratch on each particular task. I also added certain layers at the end so that the model can be used for binary classification using the sigmoid function. After training each model I saved it in the EfficientNetV2S models folder.
 
-I then tested my model on the test data and plotted the confustion matrix to visulaise the results.
-
 ![image](https://github.com/vedh18/Task-3/assets/147409775/87360cbf-01f8-465b-8265-6eed85b4cbe1)
+![image](https://github.com/vedh18/Task-3/assets/147409775/dfb4bbcd-a90d-4f6d-88df-ee9b3027c47b)
+![image](https://github.com/vedh18/Task-3/assets/147409775/1c954e0b-8449-4e98-bc6a-a38dafaac325)
 
+
+I then tested my model on the test data and plotted the confustion matrix to visulaise the results.
+![image](https://github.com/vedh18/Task-3/assets/147409775/058c44cf-c44d-4f03-a568-738fbad579a9)
+![image](https://github.com/vedh18/Task-3/assets/147409775/f12ac49d-6072-4563-bc14-b16887310bd6)
+![image](https://github.com/vedh18/Task-3/assets/147409775/d29c28a2-6666-4d78-96cc-88351c17f269)
 
 
 ### Final Implementation
-To implement these models on any image and predict its gender
+To implement these models on any image and predict its gender, I again used MTCNN to crop out the face of the image and then applied these models using the logic stated before to get my results.
+![image](https://github.com/vedh18/Task-3/assets/147409775/64113b2b-067f-4142-b232-2cfafb179a68)
+![image](https://github.com/vedh18/Task-3/assets/147409775/b1e6db3f-2f44-45bd-a999-b4ff2babfa1e)
+![image](https://github.com/vedh18/Task-3/assets/147409775/c76e6d3b-30ad-4b19-b163-34cc8b000477)
+![image](https://github.com/vedh18/Task-3/assets/147409775/f6d245a9-d6ef-4c1f-860a-d7df128a4b2f)
+
