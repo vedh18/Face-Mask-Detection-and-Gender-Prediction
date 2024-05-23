@@ -29,7 +29,7 @@ Then all the images were split into training, test and validation sub-folders.
 Here, I am reducing the size of the dataset since even at about 3000 images, (2000 train, 500 test and 500 validation) the models which I had trained from scratch took about 150 minutes each to train.
 
 ### Model Training and Testing 
-I had intended to create gender prediction on masked headhots using the cv2 library. For that, I planned I would need three models -
+I planned I trained three models -
 1) To detect face mask
 If Face mask is detected,
 2) To predict gender on a image with a person wearing a face-mask
@@ -58,3 +58,8 @@ To implement these models on any image and predict its gender, I again used MTCN
 ![image](https://github.com/vedh18/Task-3/assets/147409775/c76e6d3b-30ad-4b19-b163-34cc8b000477)
 ![image](https://github.com/vedh18/Task-3/assets/147409775/f6d245a9-d6ef-4c1f-860a-d7df128a4b2f)
 
+
+## To run code
+Download the entire repositary
+Download the datasets form the google drive link as it is and then simply run the code.ipynb file. 
+To avoid training the model again, you could run the run_model.ipynb file to load models from the EfficientNetV2S folder directly.
